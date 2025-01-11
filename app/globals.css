@@ -4,6 +4,6 @@
 
 @layer base {
   * {
-    @apply transition-all duration-500 ease-linear;
+    @apply transition-all duration-300 ease-linear;
   }
 }

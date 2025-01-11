@@ -1,0 +1,8 @@
+****************** Errors: ****************** 
+
+
+1. Error type is not assignable to ReactNode type
+----------------------------------------------------------
+Reason: Occurs when You are trying to use the Error object inside the JSX, which is not a ReactNode. React is only expecting ReactNodes inside JSX. Such as String, Array of ReactNode, JSX, number, null, undefined etc.
+
+Resolution: Use "The error object's properties such as message, name etc inside the JSX.
