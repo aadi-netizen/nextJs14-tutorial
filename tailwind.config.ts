@@ -12,8 +12,24 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        slideUp: {
+          from: {
+            opacity: "0",
+            transform: "translateY(100%)",
+          },
+          to: {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+      },
+      animation: {
+        slideUp: "slideUp 1s ease",
+      },
     },
+    plugins: [],
   },
-  plugins: [],
 };
+
 export default config;
